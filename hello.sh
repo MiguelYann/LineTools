@@ -1,6 +1,6 @@
 #!/bin/bash
 # My first script
-function print {
+function deleteComments {
   sed -i '/^#/d' $1
 }
 
